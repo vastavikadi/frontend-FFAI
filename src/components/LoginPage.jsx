@@ -3,7 +3,7 @@ import axios from "axios";
 import { Navigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useAuth } from "../context/AuthContext";
-import loginImage from "../assets/Login.avif";
+import loginImage from "../assets/login.avif";
 
 const LoginPage = () => {
   const [email, setEmail] = useState("");
