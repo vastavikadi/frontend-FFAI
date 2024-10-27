@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import aiImage from '../assets/whyai.jpeg';
+import aiImage from '../assets/soil_analysis.jpg';
 
 const AdvantagesDisadvantages = () => {
   const navigate = useNavigate();
