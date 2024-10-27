@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
-import signupImage from "../assets/signUp.webp";
+import signupImage from "../assets/signup.webp";
 
 const SignUpPage = () => {
   const navigate = useNavigate();
